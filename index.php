@@ -9,10 +9,12 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  */
 
 get_header(); ?>
+
+<!--index.php-->
 
 		<div id="primary">
 			<div id="content" role="main">

@@ -3,10 +3,12 @@
  * The default template for displaying content
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--content-quote.php-->
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">

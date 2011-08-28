@@ -3,10 +3,12 @@
  * The Footer widget areas.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--sidebar-footer.php-->
 
 <?php
 	/* The footer widget area is triggered if any of the areas

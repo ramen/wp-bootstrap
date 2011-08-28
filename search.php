@@ -3,11 +3,13 @@
  * The template for displaying Search Results pages.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--search.php-->
 
 		<section id="primary">
 			<div id="content" role="main">

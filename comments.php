@@ -8,10 +8,13 @@
  * located in the functions.php file.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--comments.php-->
+
 	<div id="comments">
 	<?php if ( post_password_required() ) : ?>
 		<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'twentyeleven' ); ?></p>

@@ -3,7 +3,7 @@
  * Twenty Eleven Theme Options
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 

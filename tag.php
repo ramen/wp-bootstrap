@@ -3,11 +3,13 @@
  * The template used to display Tag Archive pages
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--tag.php-->
 
 		<section id="primary">
 			<div id="content" role="main">

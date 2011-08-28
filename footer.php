@@ -5,10 +5,12 @@
  * Contains the closing of the id=main div and all content after
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--footer.php-->
 
 	</div><!-- #main -->
 

@@ -3,10 +3,12 @@
  * The template for displaying page content in the showcase.php page template
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--content-intro.php-->
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'intro' ); ?>>
 	<header class="entry-header">

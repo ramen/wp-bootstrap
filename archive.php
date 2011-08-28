@@ -8,11 +8,13 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--archive.php-->
 
 		<section id="primary">
 			<div id="content" role="main">

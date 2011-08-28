@@ -5,10 +5,13 @@
  * Learn more: http://codex.wordpress.org/Post_Formats
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 ?>
+
+<!--content-image.php-->
+
 	<article id="post-<?php the_ID(); ?>" <?php post_class( 'indexed' ); ?>>
 		<header class="entry-header">
 			<hgroup>

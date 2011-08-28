@@ -4,11 +4,13 @@
  * Description: A Page Template that adds a sidebar to pages
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--sidebar-page.php-->
 
 		<div id="primary">
 			<div id="content" role="main">

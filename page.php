@@ -8,11 +8,13 @@
  * different template.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--page.php-->
 
 		<div id="primary">
 			<div id="content" role="main">

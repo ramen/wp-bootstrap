@@ -10,7 +10,7 @@
  * We are creating two queries to fetch the proper posts and a custom widget for the sidebar.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
@@ -18,6 +18,8 @@
 wp_enqueue_script( 'twentyeleven-showcase', get_template_directory_uri() . '/js/showcase.js', array( 'jquery' ), '2011-04-28' );
 
 get_header(); ?>
+
+<!--showcase.php-->
 
 		<div id="primary" class="showcase">
 			<div id="content" role="main">

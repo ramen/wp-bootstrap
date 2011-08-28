@@ -3,11 +3,13 @@
  * The template for displaying image attachments.
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
+ * @subpackage Bootstrap from Twitter
  * @since Twenty Eleven 1.0
  */
 
 get_header(); ?>
+
+<!--image.php-->
 
 		<div id="primary" class="image-attachment">
 			<div id="content" role="main">
