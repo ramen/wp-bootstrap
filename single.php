@@ -11,7 +11,7 @@ get_header(); ?>
 
 <!--single.php-->
 
-		<div id="primary">
+		<div id="primary" class="span12">
 			<div id="content" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>

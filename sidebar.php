@@ -15,7 +15,7 @@ if ( 'content' != $current_layout ) :
 
 <!--sidebar.php-->
 
-		<div id="secondary" class="widget-area" role="complementary">
+		<div id="secondary" class="span4 widget-area" role="complementary">
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 				<aside id="archives" class="widget">

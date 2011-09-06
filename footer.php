@@ -12,6 +12,7 @@
 
 <!--footer.php-->
 
+	</div><!-- .row -->
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">

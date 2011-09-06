@@ -16,7 +16,7 @@ get_header(); ?>
 
 <!--index.php-->
 
-		<div id="primary">
+		<div id="primary" class="span12">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>
