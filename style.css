@@ -2237,3 +2237,21 @@ p.comment-form-comment {
 #ie7 section.recent-posts {
 	margin-right: 7.6%;
 }
+
+
+/* =Syntax highlighting
+----------------------------------------------- */
+
+.wp_syntax {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp_syntax div.code {
+  padding: 0;
+}
+
+.wp_syntax pre {
+  border: none;
+}
