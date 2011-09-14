@@ -1312,6 +1312,7 @@ section.recent-posts .other-recent-posts li:after {
 .widget ul {
 	font-size: 15px;
 	margin: 0;
+	list-style: none;
 }
 .widget ul ul {
 	margin-left: 1.5em;
