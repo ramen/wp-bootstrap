@@ -49,7 +49,9 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.2.0.min.css">
+<!--<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap-1.2.0.css">-->
+<link rel="stylesheet/less" href="<?php echo get_template_directory_uri(); ?>/bootstrap/lib/bootstrap.less">
+<script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/less-1.1.3.min.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
