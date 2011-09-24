@@ -23,7 +23,7 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
+		<?php enhanced_link_pages(array('blink'=>'<li>', 'alink'=>'</li>', 'before' => '<div class="pagination"><ul><li><h5>' . __( 'Pages:', 'twentyeleven' ) . '</h5></li>', 'after' => '</ul></div>', 'next_or_number' => 'number')); ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
