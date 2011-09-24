@@ -23,7 +23,7 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php enhanced_link_pages(array('blink'=>'<li>', 'alink'=>'</li>', 'before' => '<div class="pagination"><ul><li><h5>' . __( 'Pages:', 'twentyeleven' ) . '</h5></li>', 'after' => '</ul></div>', 'next_or_number' => 'number')); ?>
+		<?php enhanced_link_pages(array('blink'=>'<li>', 'alink'=>'</li>', 'before' => '<div class="pagination"><ul><li><a>' . __( 'Pages:', 'twentyeleven' ) . '</a></li>', 'after' => '</ul></div>', 'next_or_number' => 'number')); ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
