@@ -308,7 +308,7 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 }
 
 #masthead div.inner, #footer div.inner {
-  background: transparent url("http://twitter.github.com/bootstrap/assets/img/grid-18px.png") top center;
+  background: transparent url("images/grid-18px.png") top center;
   padding: 45px 0;
   -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
      -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -455,6 +455,7 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 .entry-content #s {
 	width: 75%;
 }
+
 .comment-content ul,
 .comment-content ol {
 	margin-bottom: 1.625em;
@@ -742,13 +743,6 @@ blockquote.pull {
 .singular blockquote.pull.alignleft,
 .singular blockquote.pull.alignright {
 	width: 33%;
-}
-.singular .entry-meta .edit-link a {
-	bottom: auto;
-	left: 50px;
-	position: absolute;
-	right: auto;
-	top: 80px;
 }
 
 
@@ -1293,41 +1287,11 @@ section.recent-posts .other-recent-posts li:after {
 
 /* =Widgets
 ----------------------------------------------- */
-
-.widget-area {
-	font-size: 12px;
-}
 .widget {
 	clear: both;
 	margin: 0 0 2.2em;
 }
 .widget-title {
-	color: #666;
-	font-size: 10px;
-	font-weight: 500;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
-}
-.widget ul {
-	font-size: 15px;
-	margin: 0;
-}
-.widget ul ul {
-	margin-left: 1.5em;
-}
-.widget ul li {
-	color: #777;
-	font-size: 13px;
-}
-.widget a {
-	font-weight: bold;
-	text-decoration: none;
-}
-.widget a:hover,
-.widget a:focus,
-.widget a:active {
-	text-decoration: underline;
 }
 
 /* Search Widget */
