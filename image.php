@@ -16,11 +16,13 @@ get_header(); ?>
 
 			<?php the_post(); ?>
 
-			<nav id="nav-single">
-				<h3 class="assistive-text"><?php _e( 'Image navigation', 'twentyeleven' ); ?></h3>
-				<span class="nav-previous"><?php previous_image_link( false, __( '&larr; Previous' , 'twentyeleven' ) ); ?></span>
-				<span class="nav-next"><?php next_image_link( false, __( 'Next &rarr;' , 'twentyeleven' ) ); ?></span>
-			</nav><!-- #nav-single -->
+					<nav id="nav-single" class="pagination">
+						<h3 class="assistive-text"><?php _e( 'Post navigation', 'twentyeleven' ); ?></h3>
+						<ul>
+							<li class="nav-previous"><?php previous_post_link( '%link', __( 'Prev', 'twentyeleven' ) ); ?></li>
+							<li class="nav-next"><?php next_post_link( '%link', __( 'Next', 'twentyeleven' ) ); ?></li>
+						</ul>
+					</nav><!-- #nav-single -->
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="entry-header">
