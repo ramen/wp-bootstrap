@@ -15,6 +15,7 @@ if ( 'content' != $current_layout ) :
 
 <!--sidebar.php-->
 
+		<div class="span4">
 		<div id="secondary" class="span4 widget-area" role="complementary">
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
@@ -36,4 +37,5 @@ if ( 'content' != $current_layout ) :
 
 			<?php endif; // end sidebar widget area ?>
 		</div><!-- #secondary .widget-area -->
+		</div><!-- .span4 -->
 <?php endif; ?>

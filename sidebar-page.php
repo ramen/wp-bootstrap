@@ -12,6 +12,7 @@ get_header(); ?>
 
 <!--sidebar-page.php-->
 
+		<div class="span12">
 		<div id="primary">
 			<div id="content" role="main">
 
@@ -23,6 +24,7 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
+    </div><!-- .span12 -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
