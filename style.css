@@ -308,7 +308,6 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 }
 
 #masthead div.inner, #footer div.inner {
-  background: transparent url("images/grid-18px.png") top center;
   padding: 45px 0;
   -webkit-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
      -moz-box-shadow: inset 0 10px 30px rgba(0, 0, 0, 0.3);
