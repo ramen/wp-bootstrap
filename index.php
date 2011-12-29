@@ -16,7 +16,8 @@ get_header(); ?>
 
 <!--index.php-->
 
-		<div id="primary" class="span12">
+		<div class="span12">
+		<div id="primary">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>
@@ -49,6 +50,7 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
+    </div><!-- .span12 -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

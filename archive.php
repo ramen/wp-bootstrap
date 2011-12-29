@@ -16,6 +16,7 @@ get_header(); ?>
 
 <!--archive.php-->
 
+		<div class="span12">
 		<section id="primary">
 			<div id="content" role="main">
 
@@ -69,6 +70,7 @@ get_header(); ?>
 
 			</div><!-- #content -->
 		</section><!-- #primary -->
+    </div><!-- .span12 -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

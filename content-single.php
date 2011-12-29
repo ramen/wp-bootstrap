@@ -23,7 +23,15 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php enhanced_link_pages(array('blink'=>'<li>', 'alink'=>'</li>', 'before' => '<div class="pagination"><ul><li><a>' . __( 'Pages:', 'twentyeleven' ) . '</a></li>', 'after' => '</ul></div>', 'next_or_number' => 'number')); ?>
+		<?php 
+        if(function_exists('enhanced_link_pages')) {
+          enhanced_link_pages(array('blink'=>'<li>', 'alink'=>'</li>', 'before' => '<div class="pagination"><ul><li><a>' . __( 'Pages:', 'twentyeleven' ) . '</a></li>', 'after' => '</ul></div>', 'next_or_number' => 'number'));
+        }
+        elseif(get_bloginfo('version') >=2.7) {
+          wp_link_pages('before=<div class="pagelist">Pages:&after=</div>&link_before=&link_after=&pagelink=%');
+        }
+        else wp_link_pages('before=<div class="pagelist">Pages:&after=</div>&pagelink=%');
+    ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
