@@ -17,6 +17,38 @@ if ( 'content' != $current_layout ) :
 
 		<div class="span4">
 		<div id="secondary" class="span4 widget-area" role="complementary">
+
+			<div class="widget">
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+					new TWTR.Widget({
+						version: 2,
+						type: 'profile',
+						rpp: 4,
+						interval: 30000,
+						width: 250,
+						height: 300,
+						theme: {
+							shell: {
+								background: '#049cd9',
+								color: '#ffffff'
+							},
+							tweets: {
+								background: '#ffffff',
+								color: '#404040',
+								links: '#0069d6'
+							}
+						},
+						features: {
+							scrollbar: false,
+							loop: false,
+							live: false,
+							behavior: 'all'
+						}
+					}).render().setUser('ramenlabs').start();
+				</script>
+			</div>
+
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 				<aside id="archives" class="widget">
